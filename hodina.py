@@ -15,7 +15,7 @@ while number > 0:
     number//=10
 print("Súčet párnych cifier je ", sucet)"""
 
-number=int(input("Zadaj číslo: "))
+"""number=int(input("Zadaj číslo: "))
 sucet=0
 moc_des=1
 while number > 0:
@@ -23,4 +23,24 @@ while number > 0:
     sucet= sucet + (cifra*moc_des)
     number//=3
     moc_des*=10
-print("Číslo vo dvojkovej sústave ", sucet)
+print("Číslo vo dvojkovej sústave ", sucet)"""
+
+"""number=int(input("Zadaj číslo: "))
+sucet=0
+moc_des=1
+while number > 0:
+    cifra=number%10
+    sucet= sucet + (cifra*moc_des)
+    number//=10
+    moc_des*=2
+print("Číslo vo dvojkovej sústave ", sucet)"""
+
+number = int(input("Zadaj číslo: "))
+delitel = 2
+while number > 1:
+    if number % delitel == 0:
+        print(delitel, end=",")
+        number = number // delitel
+    else:
+        delitel +=1
+
