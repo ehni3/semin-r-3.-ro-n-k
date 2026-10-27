@@ -44,7 +44,7 @@ while number > 1:
     else:
         delitel +=1"""
 
-number = int(input("Zadaj číslo: "))
+"""number = int(input("Zadaj číslo: "))
 delitel = 0
 for i in range(2, int(number**0.5)):
     if number % 1 ==0:
@@ -52,4 +52,4 @@ for i in range(2, int(number**0.5)):
         print("Nie je to prvočíslo")
         break
 if delitel == 0:
-    print("Je to prvočíslo.")
+    print("Je to prvočíslo.")"""
