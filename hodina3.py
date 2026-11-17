@@ -72,3 +72,11 @@ a=0
 while a<len(mena):
     print(mena[a], end= " ")
     a+=1
+
+#Úloha 3) Máš zoznam cisla = [4, 8, 12, 16, 20]. Pomocou cyklu for vypočítaj súčet
+#všetkých čísel. Nepoužívaj funkciu sum().
+cisla = [4, 8, 12, 16, 20]
+p=0
+for k in cisla:
+    p+=k
+print(p)
