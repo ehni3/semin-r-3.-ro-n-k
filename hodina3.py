@@ -56,5 +56,5 @@ print("Znamky sú ", znamky)
 print("Priemer: ",sum(znamky)/len(znamky))
 
 #vytvorenie zoznamu pomocou list comprehencia
-z=[int(input("Zadaj známku: "))for i in range(5)]
+z=[int(input("Zadaj známku: ")) for i in range(5)]
 print(z)
