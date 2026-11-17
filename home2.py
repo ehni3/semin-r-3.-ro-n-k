@@ -14,4 +14,4 @@ teploty=[]
 for i in range(5):
     teplota=int(input("Teplota: "))
     teploty.append(teplota)
-print(teplota,"Najviššia teplota je: " max(teplota), min(teplota), sum(teplota)/len(teplota))
+print(teplota, max(teplota), min(teplota), sum(teplota)/len(teplota))
