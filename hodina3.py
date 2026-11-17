@@ -58,3 +58,17 @@ print("Priemer: ",sum(znamky)/len(znamky))
 #vytvorenie zoznamu pomocou list comprehencia
 z=[int(input("Zadaj známku: ")) for i in range(5)]
 print(z)
+
+#Úloha 1) Vytvor zoznam cisla = [3, 6, 9, 12, 15] a pomocou cyklu for vypíš všetky
+# jeho prvky, každý na samostatný riadok.
+cisla = [3, 6, 9, 12, 15]
+for i in cisla:
+    print(i)
+
+#Úloha 2) Vytvor zoznam mena = ["Adam", "Eva", "Peter", "Jana"] a pomocou cyklu while
+#vypíš všetky mená.
+mena = ["Adam", "Eva", "Peter", "Jana"]
+a=0
+while a<len(mena):
+    print(mena[a], end= " ")
+    a+=1
